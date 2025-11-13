@@ -1,0 +1,2463 @@
+[
+  {
+    "type": "area_coords",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "audio",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "url_content",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "bold",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "audio",
+          "named": true
+        },
+        {
+          "type": "bold",
+          "named": true
+        },
+        {
+          "type": "box",
+          "named": true
+        },
+        {
+          "type": "center",
+          "named": true
+        },
+        {
+          "type": "code",
+          "named": true
+        },
+        {
+          "type": "color",
+          "named": true
+        },
+        {
+          "type": "email",
+          "named": true
+        },
+        {
+          "type": "heading",
+          "named": true
+        },
+        {
+          "type": "imagemap",
+          "named": true
+        },
+        {
+          "type": "img",
+          "named": true
+        },
+        {
+          "type": "italic",
+          "named": true
+        },
+        {
+          "type": "list",
+          "named": true
+        },
+        {
+          "type": "lone_bracket",
+          "named": true
+        },
+        {
+          "type": "notice",
+          "named": true
+        },
+        {
+          "type": "profile",
+          "named": true
+        },
+        {
+          "type": "quote",
+          "named": true
+        },
+        {
+          "type": "size",
+          "named": true
+        },
+        {
+          "type": "spoiler",
+          "named": true
+        },
+        {
+          "type": "spoilerbox",
+          "named": true
+        },
+        {
+          "type": "strikethrough",
+          "named": true
+        },
+        {
+          "type": "text",
+          "named": true
+        },
+        {
+          "type": "underline",
+          "named": true
+        },
+        {
+          "type": "url",
+          "named": true
+        },
+        {
+          "type": "youtube",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "box",
+    "named": true,
+    "fields": {
+      "box_title": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "box_title",
+            "named": true
+          }
+        ]
+      }
+    },
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "audio",
+          "named": true
+        },
+        {
+          "type": "bold",
+          "named": true
+        },
+        {
+          "type": "box",
+          "named": true
+        },
+        {
+          "type": "center",
+          "named": true
+        },
+        {
+          "type": "code",
+          "named": true
+        },
+        {
+          "type": "color",
+          "named": true
+        },
+        {
+          "type": "email",
+          "named": true
+        },
+        {
+          "type": "heading",
+          "named": true
+        },
+        {
+          "type": "imagemap",
+          "named": true
+        },
+        {
+          "type": "img",
+          "named": true
+        },
+        {
+          "type": "italic",
+          "named": true
+        },
+        {
+          "type": "list",
+          "named": true
+        },
+        {
+          "type": "lone_bracket",
+          "named": true
+        },
+        {
+          "type": "notice",
+          "named": true
+        },
+        {
+          "type": "profile",
+          "named": true
+        },
+        {
+          "type": "quote",
+          "named": true
+        },
+        {
+          "type": "size",
+          "named": true
+        },
+        {
+          "type": "spoiler",
+          "named": true
+        },
+        {
+          "type": "spoilerbox",
+          "named": true
+        },
+        {
+          "type": "strikethrough",
+          "named": true
+        },
+        {
+          "type": "text",
+          "named": true
+        },
+        {
+          "type": "underline",
+          "named": true
+        },
+        {
+          "type": "url",
+          "named": true
+        },
+        {
+          "type": "youtube",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "box_title",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "center",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "audio",
+          "named": true
+        },
+        {
+          "type": "bold",
+          "named": true
+        },
+        {
+          "type": "box",
+          "named": true
+        },
+        {
+          "type": "center",
+          "named": true
+        },
+        {
+          "type": "code",
+          "named": true
+        },
+        {
+          "type": "color",
+          "named": true
+        },
+        {
+          "type": "email",
+          "named": true
+        },
+        {
+          "type": "heading",
+          "named": true
+        },
+        {
+          "type": "imagemap",
+          "named": true
+        },
+        {
+          "type": "img",
+          "named": true
+        },
+        {
+          "type": "italic",
+          "named": true
+        },
+        {
+          "type": "list",
+          "named": true
+        },
+        {
+          "type": "lone_bracket",
+          "named": true
+        },
+        {
+          "type": "notice",
+          "named": true
+        },
+        {
+          "type": "profile",
+          "named": true
+        },
+        {
+          "type": "quote",
+          "named": true
+        },
+        {
+          "type": "size",
+          "named": true
+        },
+        {
+          "type": "spoiler",
+          "named": true
+        },
+        {
+          "type": "spoilerbox",
+          "named": true
+        },
+        {
+          "type": "strikethrough",
+          "named": true
+        },
+        {
+          "type": "text",
+          "named": true
+        },
+        {
+          "type": "underline",
+          "named": true
+        },
+        {
+          "type": "url",
+          "named": true
+        },
+        {
+          "type": "youtube",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "code",
+    "named": true,
+    "fields": {
+      "code_content": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "code_content",
+            "named": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "code_content",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "lone_bracket",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "color",
+    "named": true,
+    "fields": {
+      "color_value": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "color_name",
+            "named": true
+          },
+          {
+            "type": "hex_color",
+            "named": true
+          }
+        ]
+      }
+    },
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "audio",
+          "named": true
+        },
+        {
+          "type": "bold",
+          "named": true
+        },
+        {
+          "type": "box",
+          "named": true
+        },
+        {
+          "type": "center",
+          "named": true
+        },
+        {
+          "type": "code",
+          "named": true
+        },
+        {
+          "type": "color",
+          "named": true
+        },
+        {
+          "type": "email",
+          "named": true
+        },
+        {
+          "type": "heading",
+          "named": true
+        },
+        {
+          "type": "imagemap",
+          "named": true
+        },
+        {
+          "type": "img",
+          "named": true
+        },
+        {
+          "type": "italic",
+          "named": true
+        },
+        {
+          "type": "list",
+          "named": true
+        },
+        {
+          "type": "lone_bracket",
+          "named": true
+        },
+        {
+          "type": "notice",
+          "named": true
+        },
+        {
+          "type": "profile",
+          "named": true
+        },
+        {
+          "type": "quote",
+          "named": true
+        },
+        {
+          "type": "size",
+          "named": true
+        },
+        {
+          "type": "spoiler",
+          "named": true
+        },
+        {
+          "type": "spoilerbox",
+          "named": true
+        },
+        {
+          "type": "strikethrough",
+          "named": true
+        },
+        {
+          "type": "text",
+          "named": true
+        },
+        {
+          "type": "underline",
+          "named": true
+        },
+        {
+          "type": "url",
+          "named": true
+        },
+        {
+          "type": "youtube",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "document",
+    "named": true,
+    "root": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "audio",
+          "named": true
+        },
+        {
+          "type": "bold",
+          "named": true
+        },
+        {
+          "type": "box",
+          "named": true
+        },
+        {
+          "type": "center",
+          "named": true
+        },
+        {
+          "type": "code",
+          "named": true
+        },
+        {
+          "type": "color",
+          "named": true
+        },
+        {
+          "type": "email",
+          "named": true
+        },
+        {
+          "type": "heading",
+          "named": true
+        },
+        {
+          "type": "imagemap",
+          "named": true
+        },
+        {
+          "type": "img",
+          "named": true
+        },
+        {
+          "type": "italic",
+          "named": true
+        },
+        {
+          "type": "list",
+          "named": true
+        },
+        {
+          "type": "lone_bracket",
+          "named": true
+        },
+        {
+          "type": "notice",
+          "named": true
+        },
+        {
+          "type": "profile",
+          "named": true
+        },
+        {
+          "type": "quote",
+          "named": true
+        },
+        {
+          "type": "size",
+          "named": true
+        },
+        {
+          "type": "spoiler",
+          "named": true
+        },
+        {
+          "type": "spoilerbox",
+          "named": true
+        },
+        {
+          "type": "strikethrough",
+          "named": true
+        },
+        {
+          "type": "text",
+          "named": true
+        },
+        {
+          "type": "underline",
+          "named": true
+        },
+        {
+          "type": "url",
+          "named": true
+        },
+        {
+          "type": "youtube",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "email",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "audio",
+          "named": true
+        },
+        {
+          "type": "bold",
+          "named": true
+        },
+        {
+          "type": "box",
+          "named": true
+        },
+        {
+          "type": "center",
+          "named": true
+        },
+        {
+          "type": "code",
+          "named": true
+        },
+        {
+          "type": "color",
+          "named": true
+        },
+        {
+          "type": "email",
+          "named": true
+        },
+        {
+          "type": "email_address",
+          "named": true
+        },
+        {
+          "type": "heading",
+          "named": true
+        },
+        {
+          "type": "imagemap",
+          "named": true
+        },
+        {
+          "type": "img",
+          "named": true
+        },
+        {
+          "type": "italic",
+          "named": true
+        },
+        {
+          "type": "list",
+          "named": true
+        },
+        {
+          "type": "lone_bracket",
+          "named": true
+        },
+        {
+          "type": "notice",
+          "named": true
+        },
+        {
+          "type": "profile",
+          "named": true
+        },
+        {
+          "type": "quote",
+          "named": true
+        },
+        {
+          "type": "size",
+          "named": true
+        },
+        {
+          "type": "spoiler",
+          "named": true
+        },
+        {
+          "type": "spoilerbox",
+          "named": true
+        },
+        {
+          "type": "strikethrough",
+          "named": true
+        },
+        {
+          "type": "text",
+          "named": true
+        },
+        {
+          "type": "underline",
+          "named": true
+        },
+        {
+          "type": "url",
+          "named": true
+        },
+        {
+          "type": "youtube",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "email_address",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "heading",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "audio",
+          "named": true
+        },
+        {
+          "type": "bold",
+          "named": true
+        },
+        {
+          "type": "box",
+          "named": true
+        },
+        {
+          "type": "center",
+          "named": true
+        },
+        {
+          "type": "code",
+          "named": true
+        },
+        {
+          "type": "color",
+          "named": true
+        },
+        {
+          "type": "email",
+          "named": true
+        },
+        {
+          "type": "heading",
+          "named": true
+        },
+        {
+          "type": "imagemap",
+          "named": true
+        },
+        {
+          "type": "img",
+          "named": true
+        },
+        {
+          "type": "italic",
+          "named": true
+        },
+        {
+          "type": "list",
+          "named": true
+        },
+        {
+          "type": "lone_bracket",
+          "named": true
+        },
+        {
+          "type": "notice",
+          "named": true
+        },
+        {
+          "type": "profile",
+          "named": true
+        },
+        {
+          "type": "quote",
+          "named": true
+        },
+        {
+          "type": "size",
+          "named": true
+        },
+        {
+          "type": "spoiler",
+          "named": true
+        },
+        {
+          "type": "spoilerbox",
+          "named": true
+        },
+        {
+          "type": "strikethrough",
+          "named": true
+        },
+        {
+          "type": "text",
+          "named": true
+        },
+        {
+          "type": "underline",
+          "named": true
+        },
+        {
+          "type": "url",
+          "named": true
+        },
+        {
+          "type": "youtube",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "imagemap",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "imagemap_area",
+          "named": true
+        },
+        {
+          "type": "imagemap_base",
+          "named": true
+        },
+        {
+          "type": "lone_bracket",
+          "named": true
+        },
+        {
+          "type": "text",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "imagemap_area",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "area_coords",
+          "named": true
+        },
+        {
+          "type": "audio",
+          "named": true
+        },
+        {
+          "type": "bold",
+          "named": true
+        },
+        {
+          "type": "box",
+          "named": true
+        },
+        {
+          "type": "center",
+          "named": true
+        },
+        {
+          "type": "code",
+          "named": true
+        },
+        {
+          "type": "color",
+          "named": true
+        },
+        {
+          "type": "email",
+          "named": true
+        },
+        {
+          "type": "heading",
+          "named": true
+        },
+        {
+          "type": "imagemap",
+          "named": true
+        },
+        {
+          "type": "img",
+          "named": true
+        },
+        {
+          "type": "italic",
+          "named": true
+        },
+        {
+          "type": "list",
+          "named": true
+        },
+        {
+          "type": "lone_bracket",
+          "named": true
+        },
+        {
+          "type": "notice",
+          "named": true
+        },
+        {
+          "type": "profile",
+          "named": true
+        },
+        {
+          "type": "quote",
+          "named": true
+        },
+        {
+          "type": "size",
+          "named": true
+        },
+        {
+          "type": "spoiler",
+          "named": true
+        },
+        {
+          "type": "spoilerbox",
+          "named": true
+        },
+        {
+          "type": "strikethrough",
+          "named": true
+        },
+        {
+          "type": "text",
+          "named": true
+        },
+        {
+          "type": "underline",
+          "named": true
+        },
+        {
+          "type": "url",
+          "named": true
+        },
+        {
+          "type": "url_content",
+          "named": true
+        },
+        {
+          "type": "youtube",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "imagemap_base",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "url_content",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "img",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "url_content",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "italic",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "audio",
+          "named": true
+        },
+        {
+          "type": "bold",
+          "named": true
+        },
+        {
+          "type": "box",
+          "named": true
+        },
+        {
+          "type": "center",
+          "named": true
+        },
+        {
+          "type": "code",
+          "named": true
+        },
+        {
+          "type": "color",
+          "named": true
+        },
+        {
+          "type": "email",
+          "named": true
+        },
+        {
+          "type": "heading",
+          "named": true
+        },
+        {
+          "type": "imagemap",
+          "named": true
+        },
+        {
+          "type": "img",
+          "named": true
+        },
+        {
+          "type": "italic",
+          "named": true
+        },
+        {
+          "type": "list",
+          "named": true
+        },
+        {
+          "type": "lone_bracket",
+          "named": true
+        },
+        {
+          "type": "notice",
+          "named": true
+        },
+        {
+          "type": "profile",
+          "named": true
+        },
+        {
+          "type": "quote",
+          "named": true
+        },
+        {
+          "type": "size",
+          "named": true
+        },
+        {
+          "type": "spoiler",
+          "named": true
+        },
+        {
+          "type": "spoilerbox",
+          "named": true
+        },
+        {
+          "type": "strikethrough",
+          "named": true
+        },
+        {
+          "type": "text",
+          "named": true
+        },
+        {
+          "type": "underline",
+          "named": true
+        },
+        {
+          "type": "url",
+          "named": true
+        },
+        {
+          "type": "youtube",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "list",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "list_item",
+          "named": true
+        },
+        {
+          "type": "list_type",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "list_item",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "audio",
+          "named": true
+        },
+        {
+          "type": "bold",
+          "named": true
+        },
+        {
+          "type": "box",
+          "named": true
+        },
+        {
+          "type": "center",
+          "named": true
+        },
+        {
+          "type": "code",
+          "named": true
+        },
+        {
+          "type": "color",
+          "named": true
+        },
+        {
+          "type": "email",
+          "named": true
+        },
+        {
+          "type": "heading",
+          "named": true
+        },
+        {
+          "type": "imagemap",
+          "named": true
+        },
+        {
+          "type": "img",
+          "named": true
+        },
+        {
+          "type": "italic",
+          "named": true
+        },
+        {
+          "type": "list",
+          "named": true
+        },
+        {
+          "type": "lone_bracket",
+          "named": true
+        },
+        {
+          "type": "notice",
+          "named": true
+        },
+        {
+          "type": "profile",
+          "named": true
+        },
+        {
+          "type": "quote",
+          "named": true
+        },
+        {
+          "type": "size",
+          "named": true
+        },
+        {
+          "type": "spoiler",
+          "named": true
+        },
+        {
+          "type": "spoilerbox",
+          "named": true
+        },
+        {
+          "type": "strikethrough",
+          "named": true
+        },
+        {
+          "type": "text",
+          "named": true
+        },
+        {
+          "type": "underline",
+          "named": true
+        },
+        {
+          "type": "url",
+          "named": true
+        },
+        {
+          "type": "youtube",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "list_type",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "notice",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "audio",
+          "named": true
+        },
+        {
+          "type": "bold",
+          "named": true
+        },
+        {
+          "type": "box",
+          "named": true
+        },
+        {
+          "type": "center",
+          "named": true
+        },
+        {
+          "type": "code",
+          "named": true
+        },
+        {
+          "type": "color",
+          "named": true
+        },
+        {
+          "type": "email",
+          "named": true
+        },
+        {
+          "type": "heading",
+          "named": true
+        },
+        {
+          "type": "imagemap",
+          "named": true
+        },
+        {
+          "type": "img",
+          "named": true
+        },
+        {
+          "type": "italic",
+          "named": true
+        },
+        {
+          "type": "list",
+          "named": true
+        },
+        {
+          "type": "lone_bracket",
+          "named": true
+        },
+        {
+          "type": "notice",
+          "named": true
+        },
+        {
+          "type": "profile",
+          "named": true
+        },
+        {
+          "type": "quote",
+          "named": true
+        },
+        {
+          "type": "size",
+          "named": true
+        },
+        {
+          "type": "spoiler",
+          "named": true
+        },
+        {
+          "type": "spoilerbox",
+          "named": true
+        },
+        {
+          "type": "strikethrough",
+          "named": true
+        },
+        {
+          "type": "text",
+          "named": true
+        },
+        {
+          "type": "underline",
+          "named": true
+        },
+        {
+          "type": "url",
+          "named": true
+        },
+        {
+          "type": "youtube",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "profile",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "user_id",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "quote",
+    "named": true,
+    "fields": {
+      "author": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "quote_author",
+            "named": true
+          }
+        ]
+      }
+    },
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "audio",
+          "named": true
+        },
+        {
+          "type": "bold",
+          "named": true
+        },
+        {
+          "type": "box",
+          "named": true
+        },
+        {
+          "type": "center",
+          "named": true
+        },
+        {
+          "type": "code",
+          "named": true
+        },
+        {
+          "type": "color",
+          "named": true
+        },
+        {
+          "type": "email",
+          "named": true
+        },
+        {
+          "type": "heading",
+          "named": true
+        },
+        {
+          "type": "imagemap",
+          "named": true
+        },
+        {
+          "type": "img",
+          "named": true
+        },
+        {
+          "type": "italic",
+          "named": true
+        },
+        {
+          "type": "list",
+          "named": true
+        },
+        {
+          "type": "lone_bracket",
+          "named": true
+        },
+        {
+          "type": "notice",
+          "named": true
+        },
+        {
+          "type": "profile",
+          "named": true
+        },
+        {
+          "type": "quote",
+          "named": true
+        },
+        {
+          "type": "size",
+          "named": true
+        },
+        {
+          "type": "spoiler",
+          "named": true
+        },
+        {
+          "type": "spoilerbox",
+          "named": true
+        },
+        {
+          "type": "strikethrough",
+          "named": true
+        },
+        {
+          "type": "text",
+          "named": true
+        },
+        {
+          "type": "underline",
+          "named": true
+        },
+        {
+          "type": "url",
+          "named": true
+        },
+        {
+          "type": "youtube",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "size",
+    "named": true,
+    "fields": {
+      "size_value": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "100",
+            "named": false
+          },
+          {
+            "type": "150",
+            "named": false
+          },
+          {
+            "type": "50",
+            "named": false
+          },
+          {
+            "type": "85",
+            "named": false
+          }
+        ]
+      }
+    },
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "audio",
+          "named": true
+        },
+        {
+          "type": "bold",
+          "named": true
+        },
+        {
+          "type": "box",
+          "named": true
+        },
+        {
+          "type": "center",
+          "named": true
+        },
+        {
+          "type": "code",
+          "named": true
+        },
+        {
+          "type": "color",
+          "named": true
+        },
+        {
+          "type": "email",
+          "named": true
+        },
+        {
+          "type": "heading",
+          "named": true
+        },
+        {
+          "type": "imagemap",
+          "named": true
+        },
+        {
+          "type": "img",
+          "named": true
+        },
+        {
+          "type": "italic",
+          "named": true
+        },
+        {
+          "type": "list",
+          "named": true
+        },
+        {
+          "type": "lone_bracket",
+          "named": true
+        },
+        {
+          "type": "notice",
+          "named": true
+        },
+        {
+          "type": "profile",
+          "named": true
+        },
+        {
+          "type": "quote",
+          "named": true
+        },
+        {
+          "type": "size",
+          "named": true
+        },
+        {
+          "type": "spoiler",
+          "named": true
+        },
+        {
+          "type": "spoilerbox",
+          "named": true
+        },
+        {
+          "type": "strikethrough",
+          "named": true
+        },
+        {
+          "type": "text",
+          "named": true
+        },
+        {
+          "type": "underline",
+          "named": true
+        },
+        {
+          "type": "url",
+          "named": true
+        },
+        {
+          "type": "youtube",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "spoiler",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "audio",
+          "named": true
+        },
+        {
+          "type": "bold",
+          "named": true
+        },
+        {
+          "type": "box",
+          "named": true
+        },
+        {
+          "type": "center",
+          "named": true
+        },
+        {
+          "type": "code",
+          "named": true
+        },
+        {
+          "type": "color",
+          "named": true
+        },
+        {
+          "type": "email",
+          "named": true
+        },
+        {
+          "type": "heading",
+          "named": true
+        },
+        {
+          "type": "imagemap",
+          "named": true
+        },
+        {
+          "type": "img",
+          "named": true
+        },
+        {
+          "type": "italic",
+          "named": true
+        },
+        {
+          "type": "list",
+          "named": true
+        },
+        {
+          "type": "lone_bracket",
+          "named": true
+        },
+        {
+          "type": "notice",
+          "named": true
+        },
+        {
+          "type": "profile",
+          "named": true
+        },
+        {
+          "type": "quote",
+          "named": true
+        },
+        {
+          "type": "size",
+          "named": true
+        },
+        {
+          "type": "spoiler",
+          "named": true
+        },
+        {
+          "type": "spoilerbox",
+          "named": true
+        },
+        {
+          "type": "strikethrough",
+          "named": true
+        },
+        {
+          "type": "text",
+          "named": true
+        },
+        {
+          "type": "underline",
+          "named": true
+        },
+        {
+          "type": "url",
+          "named": true
+        },
+        {
+          "type": "youtube",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "spoilerbox",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "audio",
+          "named": true
+        },
+        {
+          "type": "bold",
+          "named": true
+        },
+        {
+          "type": "box",
+          "named": true
+        },
+        {
+          "type": "center",
+          "named": true
+        },
+        {
+          "type": "code",
+          "named": true
+        },
+        {
+          "type": "color",
+          "named": true
+        },
+        {
+          "type": "email",
+          "named": true
+        },
+        {
+          "type": "heading",
+          "named": true
+        },
+        {
+          "type": "imagemap",
+          "named": true
+        },
+        {
+          "type": "img",
+          "named": true
+        },
+        {
+          "type": "italic",
+          "named": true
+        },
+        {
+          "type": "list",
+          "named": true
+        },
+        {
+          "type": "lone_bracket",
+          "named": true
+        },
+        {
+          "type": "notice",
+          "named": true
+        },
+        {
+          "type": "profile",
+          "named": true
+        },
+        {
+          "type": "quote",
+          "named": true
+        },
+        {
+          "type": "size",
+          "named": true
+        },
+        {
+          "type": "spoiler",
+          "named": true
+        },
+        {
+          "type": "spoilerbox",
+          "named": true
+        },
+        {
+          "type": "strikethrough",
+          "named": true
+        },
+        {
+          "type": "text",
+          "named": true
+        },
+        {
+          "type": "underline",
+          "named": true
+        },
+        {
+          "type": "url",
+          "named": true
+        },
+        {
+          "type": "youtube",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "strikethrough",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "audio",
+          "named": true
+        },
+        {
+          "type": "bold",
+          "named": true
+        },
+        {
+          "type": "box",
+          "named": true
+        },
+        {
+          "type": "center",
+          "named": true
+        },
+        {
+          "type": "code",
+          "named": true
+        },
+        {
+          "type": "color",
+          "named": true
+        },
+        {
+          "type": "email",
+          "named": true
+        },
+        {
+          "type": "heading",
+          "named": true
+        },
+        {
+          "type": "imagemap",
+          "named": true
+        },
+        {
+          "type": "img",
+          "named": true
+        },
+        {
+          "type": "italic",
+          "named": true
+        },
+        {
+          "type": "list",
+          "named": true
+        },
+        {
+          "type": "lone_bracket",
+          "named": true
+        },
+        {
+          "type": "notice",
+          "named": true
+        },
+        {
+          "type": "profile",
+          "named": true
+        },
+        {
+          "type": "quote",
+          "named": true
+        },
+        {
+          "type": "size",
+          "named": true
+        },
+        {
+          "type": "spoiler",
+          "named": true
+        },
+        {
+          "type": "spoilerbox",
+          "named": true
+        },
+        {
+          "type": "strikethrough",
+          "named": true
+        },
+        {
+          "type": "text",
+          "named": true
+        },
+        {
+          "type": "underline",
+          "named": true
+        },
+        {
+          "type": "url",
+          "named": true
+        },
+        {
+          "type": "youtube",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "text",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "underline",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "audio",
+          "named": true
+        },
+        {
+          "type": "bold",
+          "named": true
+        },
+        {
+          "type": "box",
+          "named": true
+        },
+        {
+          "type": "center",
+          "named": true
+        },
+        {
+          "type": "code",
+          "named": true
+        },
+        {
+          "type": "color",
+          "named": true
+        },
+        {
+          "type": "email",
+          "named": true
+        },
+        {
+          "type": "heading",
+          "named": true
+        },
+        {
+          "type": "imagemap",
+          "named": true
+        },
+        {
+          "type": "img",
+          "named": true
+        },
+        {
+          "type": "italic",
+          "named": true
+        },
+        {
+          "type": "list",
+          "named": true
+        },
+        {
+          "type": "lone_bracket",
+          "named": true
+        },
+        {
+          "type": "notice",
+          "named": true
+        },
+        {
+          "type": "profile",
+          "named": true
+        },
+        {
+          "type": "quote",
+          "named": true
+        },
+        {
+          "type": "size",
+          "named": true
+        },
+        {
+          "type": "spoiler",
+          "named": true
+        },
+        {
+          "type": "spoilerbox",
+          "named": true
+        },
+        {
+          "type": "strikethrough",
+          "named": true
+        },
+        {
+          "type": "text",
+          "named": true
+        },
+        {
+          "type": "underline",
+          "named": true
+        },
+        {
+          "type": "url",
+          "named": true
+        },
+        {
+          "type": "youtube",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "url",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "audio",
+          "named": true
+        },
+        {
+          "type": "bold",
+          "named": true
+        },
+        {
+          "type": "box",
+          "named": true
+        },
+        {
+          "type": "center",
+          "named": true
+        },
+        {
+          "type": "code",
+          "named": true
+        },
+        {
+          "type": "color",
+          "named": true
+        },
+        {
+          "type": "email",
+          "named": true
+        },
+        {
+          "type": "heading",
+          "named": true
+        },
+        {
+          "type": "imagemap",
+          "named": true
+        },
+        {
+          "type": "img",
+          "named": true
+        },
+        {
+          "type": "italic",
+          "named": true
+        },
+        {
+          "type": "list",
+          "named": true
+        },
+        {
+          "type": "lone_bracket",
+          "named": true
+        },
+        {
+          "type": "notice",
+          "named": true
+        },
+        {
+          "type": "profile",
+          "named": true
+        },
+        {
+          "type": "quote",
+          "named": true
+        },
+        {
+          "type": "size",
+          "named": true
+        },
+        {
+          "type": "spoiler",
+          "named": true
+        },
+        {
+          "type": "spoilerbox",
+          "named": true
+        },
+        {
+          "type": "strikethrough",
+          "named": true
+        },
+        {
+          "type": "text",
+          "named": true
+        },
+        {
+          "type": "underline",
+          "named": true
+        },
+        {
+          "type": "url",
+          "named": true
+        },
+        {
+          "type": "url_content",
+          "named": true
+        },
+        {
+          "type": "youtube",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "url_content",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "youtube",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "youtube_id",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "\"]",
+    "named": false
+  },
+  {
+    "type": "100",
+    "named": false
+  },
+  {
+    "type": "150",
+    "named": false
+  },
+  {
+    "type": "50",
+    "named": false
+  },
+  {
+    "type": "85",
+    "named": false
+  },
+  {
+    "type": "[*]",
+    "named": false
+  },
+  {
+    "type": "[/area]",
+    "named": false
+  },
+  {
+    "type": "[/audio]",
+    "named": false
+  },
+  {
+    "type": "[/b]",
+    "named": false
+  },
+  {
+    "type": "[/base]",
+    "named": false
+  },
+  {
+    "type": "[/box]",
+    "named": false
+  },
+  {
+    "type": "[/center]",
+    "named": false
+  },
+  {
+    "type": "[/code]",
+    "named": false
+  },
+  {
+    "type": "[/color]",
+    "named": false
+  },
+  {
+    "type": "[/email]",
+    "named": false
+  },
+  {
+    "type": "[/heading]",
+    "named": false
+  },
+  {
+    "type": "[/i]",
+    "named": false
+  },
+  {
+    "type": "[/imagemap]",
+    "named": false
+  },
+  {
+    "type": "[/img]",
+    "named": false
+  },
+  {
+    "type": "[/link]",
+    "named": false
+  },
+  {
+    "type": "[/list]",
+    "named": false
+  },
+  {
+    "type": "[/notice]",
+    "named": false
+  },
+  {
+    "type": "[/profile]",
+    "named": false
+  },
+  {
+    "type": "[/quote]",
+    "named": false
+  },
+  {
+    "type": "[/s]",
+    "named": false
+  },
+  {
+    "type": "[/size]",
+    "named": false
+  },
+  {
+    "type": "[/spoiler]",
+    "named": false
+  },
+  {
+    "type": "[/spoilerbox]",
+    "named": false
+  },
+  {
+    "type": "[/tooltip]",
+    "named": false
+  },
+  {
+    "type": "[/u]",
+    "named": false
+  },
+  {
+    "type": "[/url]",
+    "named": false
+  },
+  {
+    "type": "[/youtube]",
+    "named": false
+  },
+  {
+    "type": "[area=",
+    "named": false
+  },
+  {
+    "type": "[audio]",
+    "named": false
+  },
+  {
+    "type": "[b]",
+    "named": false
+  },
+  {
+    "type": "[base]",
+    "named": false
+  },
+  {
+    "type": "[box=",
+    "named": false
+  },
+  {
+    "type": "[center]",
+    "named": false
+  },
+  {
+    "type": "[code]",
+    "named": false
+  },
+  {
+    "type": "[color=",
+    "named": false
+  },
+  {
+    "type": "[email=",
+    "named": false
+  },
+  {
+    "type": "[email]",
+    "named": false
+  },
+  {
+    "type": "[heading]",
+    "named": false
+  },
+  {
+    "type": "[i]",
+    "named": false
+  },
+  {
+    "type": "[imagemap]",
+    "named": false
+  },
+  {
+    "type": "[img]",
+    "named": false
+  },
+  {
+    "type": "[link]",
+    "named": false
+  },
+  {
+    "type": "[list=",
+    "named": false
+  },
+  {
+    "type": "[list]",
+    "named": false
+  },
+  {
+    "type": "[notice]",
+    "named": false
+  },
+  {
+    "type": "[profile]",
+    "named": false
+  },
+  {
+    "type": "[quote=\"",
+    "named": false
+  },
+  {
+    "type": "[quote]",
+    "named": false
+  },
+  {
+    "type": "[s]",
+    "named": false
+  },
+  {
+    "type": "[size=",
+    "named": false
+  },
+  {
+    "type": "[spoiler]",
+    "named": false
+  },
+  {
+    "type": "[spoilerbox]",
+    "named": false
+  },
+  {
+    "type": "[tooltip]",
+    "named": false
+  },
+  {
+    "type": "[u]",
+    "named": false
+  },
+  {
+    "type": "[url=",
+    "named": false
+  },
+  {
+    "type": "[url]",
+    "named": false
+  },
+  {
+    "type": "[youtube]",
+    "named": false
+  },
+  {
+    "type": "]",
+    "named": false
+  },
+  {
+    "type": "color_name",
+    "named": true
+  },
+  {
+    "type": "hex_color",
+    "named": true
+  },
+  {
+    "type": "lone_bracket",
+    "named": true
+  },
+  {
+    "type": "quote_author",
+    "named": true
+  },
+  {
+    "type": "user_id",
+    "named": true
+  },
+  {
+    "type": "youtube_id",
+    "named": true
+  }
+]
